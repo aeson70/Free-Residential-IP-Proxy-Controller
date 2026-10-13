@@ -6,10 +6,10 @@ export default {
     const domain = url.origin;
 
     // --- 提取并处理云端安全隔离变量 ---
-    const WEB_USER = env.WEB_USER || "admin";        
-    const WEB_PASS = env.WEB_PASS || "admin888";     
-    const PROXY_USER = env.PROXY_USER || "proxyuser";   
-    const PROXY_PASS = env.PROXY_PASS || "888888";   
+    const WEB_USER = env.WEB_USER || "AESON";        
+    const WEB_PASS = env.WEB_PASS || "AE7597886";     
+    const PROXY_USER = env.PROXY_USER || "aes";   
+    const PROXY_PASS = env.PROXY_PASS || "aes@";   
     const configuredProxyPort = env.PROXY_PORT ? parseInt(env.PROXY_PORT, 10) : 10001;
     const PROXY_PORT = Number.isInteger(configuredProxyPort) && configuredProxyPort >= 1 && configuredProxyPort <= 65535 ? configuredProxyPort : 10001;
 
